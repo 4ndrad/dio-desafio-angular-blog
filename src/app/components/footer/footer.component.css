@@ -6,12 +6,12 @@ li{
   list-style-type: none; 
 }
 
-.container_menuBar ul{
+.container_footer ul{
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.container_menuBar li{
+.footer_info li{
   padding: 10px 15px 0 15px;
 }

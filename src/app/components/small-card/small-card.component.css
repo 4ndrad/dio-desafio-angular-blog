@@ -1,0 +1,33 @@
+a{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.container_smallCard{
+  width: 420px;
+  margin-bottom: 20px;
+  border-bottom: solid 2px #ffff;
+}
+
+.smallCard_photo{
+  margin-right: 20px;
+  margin-bottom: 8px;
+}
+
+.smallCard_photo img{
+  width: 200px;
+  min-width: 200px;
+  height: 100px;
+}
+
+.smallCard_author p{
+  margin-top: 10px;
+  color: grey;
+  font-size: 10px;
+}
+
+.smallCard_title h1{
+  margin-top: 5px;
+  font-size: 14px;
+}
