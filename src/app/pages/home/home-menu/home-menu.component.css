@@ -1,7 +1,5 @@
-.container_articles{
+.home_menu{
   display:flex;
   flex-direction: row;
-  margin-top: 30px;
   justify-content: center;
 }
-

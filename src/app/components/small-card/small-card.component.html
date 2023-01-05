@@ -1,17 +1,12 @@
 <div class="container_smallCard">
-  <a href="Googlehttps://www.google.com.br">
-      <div class="smallCard_photo">
-        <img
-          src="https://tahititourisme.com.br/wp-content/uploads/2019/03/Bora-Bora-Pearl-Beach-Resort-Tahiti-Tourism-700x700.jpg"
-          alt="image placheholder"
-        />
-      </div>
+  <a href="{{ linkCard }}">
+    <div class="smallCard_photo">
+      <img src="{{ photoCover }}" alt="{{ altPhotoCover }}" />
+    </div>
 
     <div class="smallCard_title">
-      <div class="smallCard_author">
-        <p>Author: Natan Andrade</p>
-      </div>
-      <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
+      <p>Author: {{ authorCard }}</p>
+      <h1>{{ cardTitle }}</h1>
     </div>
   </a>
 </div>

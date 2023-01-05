@@ -18,10 +18,16 @@ a{
 .smallCard_photo img{
   width: 200px;
   min-width: 200px;
-  height: 100px;
+  height: 200px;
 }
 
-.smallCard_author p{
+.smallCard_title{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.smallCard_title p{
   margin-top: 10px;
   color: grey;
   font-size: 10px;
