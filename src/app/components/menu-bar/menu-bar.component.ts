@@ -8,9 +8,6 @@ import { Component, Input, OnInit } from '@angular/core';
 export class MenuBarComponent implements OnInit {
 
   @Input()
-  linkPage:string=""
-
-  @Input()
   namePage:string=""
 
   constructor() { }

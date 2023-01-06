@@ -1,0 +1,27 @@
+.container_content{
+  width:100%;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:15px;
+}
+
+.content_cover img{
+  width: 400px;
+  min-width: 350px;
+  height: 300px;
+  min-height: 300px;
+}
+
+.content_title p{
+  font-size: 12px;
+}
+
+.content_description p{
+  margin-top:20px;
+}
+
+.content_description p, .content_title p{
+  color: grey;
+}

@@ -1,2 +1,28 @@
-<app-home></app-home>
+<app-menu-title nameTitle="the blog"></app-menu-title>
+
+<div class="menu">
+    <app-menu-bar [routerLink]="[' ']" namePage="News"></app-menu-bar>
+    <app-menu-bar [routerLink]="[' ']" namePage="Contato"></app-menu-bar>
+    <app-menu-bar [routerLink]="[' ']" namePage="Sobre"></app-menu-bar>
+</div>
+
 <router-outlet></router-outlet>
+
+<div class="footer">
+    <app-footer
+      linkSocialNetwork="mailto:natan07lima@outlook.com"
+      ImgSocialNetwork="https://logospng.org/download/microsoft-outlook/logo-microsoft-outlook-1024.png"
+      altImg="email"
+    ></app-footer>
+    <app-footer
+      linkSocialNetwork="https://www.linkedin.com/in/natan-andrade-1bbb9817b"
+      ImgSocialNetwork="https://www.futuratecnologia.com.br/newsite/wp-content/uploads/2021/01/linkedin.png"
+      altImg="linkedin"
+    ></app-footer>
+    <app-footer
+      linkSocialNetwork="https://www.instagram.com/invites/contact/?i=vc7rdOOns7oj&utm_content=klr2kj"
+      ImgSocialNetwork="https://i2.wp.com/www.multarte.com.br/wp-content/uploads/2019/03/logo-instagram-png-fundo-transparente13.png?fit=696%2C696&ssl=1"
+      altImg="instagram"
+    ></app-footer>
+  </div>
+
